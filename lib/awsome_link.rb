@@ -6,7 +6,7 @@ module AwsomeLink
   private
 
   def icon_tag(icon_class)
-    "<div class='fa-#{ icon_class }'></i>"
+    "<i class='fa-#{ icon_class }'></i>"
   end
 end
 ActionView::Base.send(:include, AwsomeLink) if defined?(ActionView::Base)
