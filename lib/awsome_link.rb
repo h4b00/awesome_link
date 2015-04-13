@@ -6,7 +6,7 @@ module AwsomeLink
   private
 
   def icon_tag(icon_class)
-    "<i class='fa-#{ icon_class }'></i>"
+    "<i class='fa #{ icon_class }'></i>"
   end
 end
 
