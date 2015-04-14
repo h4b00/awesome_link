@@ -9,7 +9,7 @@ This gem require [font-awsome-rails version](https://github.com/bokmann/font-awe
 
 Add this line to your application's Gemfile:
 
-    gem 'awsome_link'
+    gem 'awesome_link'
 
 And then execute:
 
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install awsome_link
+    $ gem install awesome_link
 
 
 ## Usage
@@ -25,11 +25,11 @@ Or install it yourself as:
 
 Simple usage:
 ```html+haml
-= awesome_link 'arrow-circle-o-up', 'www.wikipedia.com'
+= awesome_link 'fa-arrow-circle-o-up', 'www.wikipedia.com'
 ```
 produce:
 ```
-<a href="www.wikipedia.com"><i class="fa-arrow-circle-o-up"></i></a>
+<a href="www.wikipedia.com"><i class="fa fa-arrow-circle-o-up"></i></a>
 ```
 
 More rails example: 
@@ -40,6 +40,10 @@ returns:
 
    	<a href="/"><i class="fa-arrow-circle-o-up"></i></a>
 
+
+`awsome_link` is similiar to `link_to` function. Just put icon class in first argument instead of text'
+
+    = awesome_link('fa-minus-circle', travel_path(current_island.name, travel), method: :delete, style: "color: red;")
 
 ## Contributing
 
