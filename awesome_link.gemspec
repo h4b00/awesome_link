@@ -18,5 +18,4 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.add_development_dependency "bundler", "~> 1.3"
   s.add_development_dependency "rake"
-  s.requirments << "font-awesome-rails"
 end
