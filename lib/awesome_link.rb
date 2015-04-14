@@ -1,5 +1,5 @@
 module AwsomeLink
-  def awsome_link(icon_class = nil, url_options = nil, html_options = nil, &block)
+  def awesome_link(icon_class = nil, url_options = nil, html_options = nil, &block)
     link_to("#{ icon_tag(icon_class) }".html_safe, url_options, html_options, &block)
   end
 

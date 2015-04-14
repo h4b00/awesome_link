@@ -1,4 +1,4 @@
-# AwsomeLink
+# AwesomeLink
 
 Calls your `link_to` functions simple and readable, when using font-awsome-rails icons.
 
@@ -25,7 +25,7 @@ Or install it yourself as:
 
 Simple usage:
 ```html+haml
-= awsome_link 'arrow-circle-o-up', 'www.wikipedia.com'
+= awesome_link 'arrow-circle-o-up', 'www.wikipedia.com'
 ```
 produce:
 ```
@@ -39,7 +39,6 @@ More rails example:
 returns:
 
    	<a href="/"><i class="fa-arrow-circle-o-up"></i></a>
-
 
 
 ## Contributing
