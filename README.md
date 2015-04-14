@@ -34,14 +34,14 @@ produce:
 
 More rails example: 
 ```
-= awsome_link 'arrow-circle-o-up', root_path  
+= awsome_link 'fa-arrow-circle-o-up', root_path  
 ```
 returns:
 
    	<a href="/"><i class="fa-arrow-circle-o-up"></i></a>
 
 
-`awsome_link` is similiar to `link_to` function. Just put icon class in first argument instead of text'
+`awsome_link` is similiar to `link_to` function, just put icon class in first argument instead of text link.
 
     = awesome_link('fa-minus-circle', travel_path(current_island.name, travel), method: :delete, style: "color: red;")
 
