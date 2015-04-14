@@ -1,4 +1,4 @@
-module AwsomeLink
+module AwesomeLink
   def awesome_link(icon_class = nil, url_options = nil, html_options = nil, &block)
     link_to("#{ icon_tag(icon_class) }".html_safe, url_options, html_options, &block)
   end
@@ -10,4 +10,4 @@ module AwsomeLink
   end
 end
 
-ActionView::Base.send(:include, AwsomeLink) if defined?(ActionView::Base)
+ActionView::Base.send(:include, AwesomeLink) if defined?(ActionView::Base)

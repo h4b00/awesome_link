@@ -38,7 +38,7 @@ More rails example:
 ```
 returns:
 
-   	<a href="/"><i class="fa-arrow-circle-o-up"></i></a>
+   	<a href="/"><i class="fa fa-arrow-circle-o-up"></i></a>
 
 
 `awsome_link` is similiar to `link_to` function, just put icon class in first argument instead of text link.
