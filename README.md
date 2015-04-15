@@ -34,7 +34,7 @@ produce:
 
 More rails example: 
 ```
-= awsome_link 'fa-arrow-circle-o-up', root_path  
+= awesome_link 'fa-arrow-circle-o-up', root_path  
 ```
 returns:
 
